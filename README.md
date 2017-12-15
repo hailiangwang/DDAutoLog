@@ -208,7 +208,7 @@ pod 'DDAutoLog'
 
 ## Author
 
-yusipeng, yusipeng@luojilab.com
+wanghailiang, wanghailiang@luojilab.com
 
 ## License
 
