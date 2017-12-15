@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDAutoLog_Example' do
+  pod 'DDAutoLog', :path => '../'
+
+  target 'DDAutoLog_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

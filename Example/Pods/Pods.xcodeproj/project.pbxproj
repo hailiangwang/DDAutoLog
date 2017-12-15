@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		079AA2C2E14CFCA351A30A61D1A774BE /* UITableView+DDAutoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF4AC33DFB0ADF9021BD7B17282FB61 /* UITableView+DDAutoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0D25506B1F98A56EC1DEC3E630CB7216 /* UIView+DDAutoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CB715C2854AB2423B2D48CAF0CDAF645 /* UIView+DDAutoLog.m */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		2C2E352AC261CFB6F721872B8C7327FE /* DDAutoLogOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7C492090387F30084031CF4EAB3A7 /* DDAutoLogOperation.m */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		46F07F826CA9F999BE9F76AE1B88FFBD /* UIView+DDAutoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDEE7B516E3D25A15530DD41BB34ADB /* UIView+DDAutoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C621BE0CF2D79FA3CCF5FB7C2BB589F /* NSObject+DDAutoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B14C95BA51389AD882B99143B947F00 /* NSObject+DDAutoLog.m */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
+		557DD238BAE4FBE5FC3721095DF1845E /* UIButton+DDAutoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF9DA22434BA991A93086FF99FC7959 /* UIButton+DDAutoLog.m */; };
+		67413749A992542C84C7CDE59A710ACA /* DDAutoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FEEA5970AF87A6891435053C871E75 /* DDAutoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		684FCE00D74C5CF32E8979EE2EBC2625 /* UIButton+DDAutoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 906A4B6D6B076FA41C075DFC1ACC1C48 /* UIButton+DDAutoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		7E280340EAE8F0737A8C0C75820DC8A7 /* DDAutoLogOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C29C7EF96B7F0EC67FD9DFD8C102DC /* DDAutoLogOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7E716A63E733B257FD62758E9495F2 /* UICollectionView+DDAutoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBDF95D83159EAFC14D7BB670D91AFE /* UICollectionView+DDAutoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
+		843F796593370117B2B3FDB57DE4009A /* Pods-DDAutoLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8615FC24A91CDB127889672A3D0EA471 /* Pods-DDAutoLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		946113F3FEA702B909051AD7BF9B16CD /* Pods-DDAutoLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 693B5E510E0AE3541146ACAC186AA684 /* Pods-DDAutoLog_Example-dummy.m */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3EF3D66F51F8D15B4F962A9FBABF592 /* DDAutoLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3961EED3C02C8061E90460174E8B8548 /* DDAutoLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		AF1023D4F2A722B679FF28A8EC9805F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		B0B651A9C7BEB8C57D153C9AD945472B /* NSObject+DDAutoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CC330DB038B9775A1F21FD14ACA91C /* NSObject+DDAutoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C10C20D5698AAF825A24335DA7FFBBD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		C359AF0C03AB81E0C242E9B024E71593 /* UITableView+DDAutoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FADD253CC38E0FEBCF2D43A3DCC3EC /* UITableView+DDAutoLog.m */; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CBD9AB708072AE6DA030556BC66C121A /* Pods-DDAutoLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F4ECB96FFF060EDD77E18D7B1F358 /* Pods-DDAutoLog_Tests-dummy.m */; };
+		CEA973281FEAEB1E047BC38A9C89A936 /* Pods-DDAutoLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67EF43FBEB561A7099ABBAE2B72A31A5 /* Pods-DDAutoLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1ECA5E95AE85F7AD15D5BEF8A76839E /* DDAutoLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D288B901CE7803902A877D9B6E0E782 /* DDAutoLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8040D3DD879D0502DFCEA117B7FBA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		DE0BAD97006851F625F7481BE82C10A6 /* UICollectionView+DDAutoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A34849EBFBB408E2895384EFDDA1DC94 /* UICollectionView+DDAutoLog.m */; };
+		E8C5B0E3E354821E08CAD24902C86025 /* DDAutoLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAD044426E029C51E105018235E123F /* DDAutoLog-dummy.m */; };
+		F9D9512929A9EE7671EEC3CF1AD58010 /* DDAutoLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA57CE71F738C18AF4B0F38D244754FE /* DDAutoLogManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336F5EAABC109B14517CDD73412A42ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB44524ECFEDCAE730D3E02FCCA445C3;
+			remoteInfo = DDAutoLog;
+		};
+		A37D6B3E53E9050C020F62746FDBD596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		144E5641A82ACA81C88F876D8CE09184 /* Pods-DDAutoLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDAutoLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1946C1769C79723EADFAE7CEE85333B4 /* Pods-DDAutoLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDAutoLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1BF8238622142CB9F79BDB741ECAFFE1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		204784675A2819E6F39C5E3F468DBB4B /* DDAutoLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDAutoLog.xcconfig; sourceTree = "<group>"; };
+		250C37036C92E40BA581C662E5934193 /* Pods_DDAutoLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDAutoLog_Tests.framework; path = "Pods-DDAutoLog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2965FFB5644B297126704B4DC46788A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF4AC33DFB0ADF9021BD7B17282FB61 /* UITableView+DDAutoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+DDAutoLog.h"; path = "DDAutoLog/Classes/UITableView+DDAutoLog.h"; sourceTree = "<group>"; };
+		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		3144C6856E1E47AD9711C083BA5EAB63 /* Pods-DDAutoLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDAutoLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3961EED3C02C8061E90460174E8B8548 /* DDAutoLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDAutoLog-umbrella.h"; sourceTree = "<group>"; };
+		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		424F4ECB96FFF060EDD77E18D7B1F358 /* Pods-DDAutoLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDAutoLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		4642A3A0D913229157E600307695CE02 /* Pods-DDAutoLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DDAutoLog_Example.modulemap"; sourceTree = "<group>"; };
+		4EBDF95D83159EAFC14D7BB670D91AFE /* UICollectionView+DDAutoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+DDAutoLog.h"; path = "DDAutoLog/Classes/UICollectionView+DDAutoLog.h"; sourceTree = "<group>"; };
+		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		54B33BF752299256FD9BE25CF19A9152 /* Pods-DDAutoLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DDAutoLog_Tests.modulemap"; sourceTree = "<group>"; };
+		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6578FB3A05E45B62B40FDBBE1E5C24BE /* Pods-DDAutoLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDAutoLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		66F3A6C4E2A3D9A93E63BBB79CEF3BBC /* Pods-DDAutoLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDAutoLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67EF43FBEB561A7099ABBAE2B72A31A5 /* Pods-DDAutoLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDAutoLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		693B5E510E0AE3541146ACAC186AA684 /* Pods-DDAutoLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDAutoLog_Example-dummy.m"; sourceTree = "<group>"; };
+		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		75FEEA5970AF87A6891435053C871E75 /* DDAutoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAutoLog.h; path = DDAutoLog/Classes/DDAutoLog.h; sourceTree = "<group>"; };
+		7B14C95BA51389AD882B99143B947F00 /* NSObject+DDAutoLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DDAutoLog.m"; path = "DDAutoLog/Classes/NSObject+DDAutoLog.m"; sourceTree = "<group>"; };
+		7D288B901CE7803902A877D9B6E0E782 /* DDAutoLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAutoLogManager.h; path = DDAutoLog/Classes/DDAutoLogManager.h; sourceTree = "<group>"; };
+		7E0853122BCAB2AF50D83DECEF2E05AF /* DDAutoLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DDAutoLog.modulemap; sourceTree = "<group>"; };
+		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		8615FC24A91CDB127889672A3D0EA471 /* Pods-DDAutoLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDAutoLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A0B7E7C55474B742825AF32FB1B1C0E /* DDAutoLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDAutoLog.framework; path = DDAutoLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC7C492090387F30084031CF4EAB3A7 /* DDAutoLogOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAutoLogOperation.m; path = DDAutoLog/Classes/DDAutoLogOperation.m; sourceTree = "<group>"; };
+		906A4B6D6B076FA41C075DFC1ACC1C48 /* UIButton+DDAutoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+DDAutoLog.h"; path = "DDAutoLog/Classes/UIButton+DDAutoLog.h"; sourceTree = "<group>"; };
+		922E2B56B7A040E01C003D1096255482 /* Pods-DDAutoLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDAutoLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9347482627C55C088F6D9F3D61486C5F /* Pods-DDAutoLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDAutoLog_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A34849EBFBB408E2895384EFDDA1DC94 /* UICollectionView+DDAutoLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+DDAutoLog.m"; path = "DDAutoLog/Classes/UICollectionView+DDAutoLog.m"; sourceTree = "<group>"; };
+		A5D7EA3FAECCFA25E60546F79B4B03D3 /* Pods-DDAutoLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDAutoLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A678C338CBF3416CACBCDCEF5287C3EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA57CE71F738C18AF4B0F38D244754FE /* DDAutoLogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAutoLogManager.m; path = DDAutoLog/Classes/DDAutoLogManager.m; sourceTree = "<group>"; };
+		ABF943B7ABDDFFC9625277804A0F97EC /* DDAutoLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDAutoLog-prefix.pch"; sourceTree = "<group>"; };
+		B856735D96C12D9BE5925A034C87FDB7 /* Pods-DDAutoLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDAutoLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8FADD253CC38E0FEBCF2D43A3DCC3EC /* UITableView+DDAutoLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+DDAutoLog.m"; path = "DDAutoLog/Classes/UITableView+DDAutoLog.m"; sourceTree = "<group>"; };
+		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BA24AAFC98B2041A9840808668793779 /* Pods-DDAutoLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDAutoLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB715C2854AB2423B2D48CAF0CDAF645 /* UIView+DDAutoLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DDAutoLog.m"; path = "DDAutoLog/Classes/UIView+DDAutoLog.m"; sourceTree = "<group>"; };
+		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		CCDEE7B516E3D25A15530DD41BB34ADB /* UIView+DDAutoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DDAutoLog.h"; path = "DDAutoLog/Classes/UIView+DDAutoLog.h"; sourceTree = "<group>"; };
+		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		DADE131E8939E5B2079112D030D2E464 /* Pods-DDAutoLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDAutoLog_Example-resources.sh"; sourceTree = "<group>"; };
+		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E3CC330DB038B9775A1F21FD14ACA91C /* NSObject+DDAutoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DDAutoLog.h"; path = "DDAutoLog/Classes/NSObject+DDAutoLog.h"; sourceTree = "<group>"; };
+		E4C29C7EF96B7F0EC67FD9DFD8C102DC /* DDAutoLogOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAutoLogOperation.h; path = DDAutoLog/Classes/DDAutoLogOperation.h; sourceTree = "<group>"; };
+		EBAD044426E029C51E105018235E123F /* DDAutoLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDAutoLog-dummy.m"; sourceTree = "<group>"; };
+		EBF9DA22434BA991A93086FF99FC7959 /* UIButton+DDAutoLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+DDAutoLog.m"; path = "DDAutoLog/Classes/UIButton+DDAutoLog.m"; sourceTree = "<group>"; };
+		F075EC71B74CB0B9D0AA8D911732CB9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A0065BE31B48D90E7D8B9E72F61F27 /* Pods_DDAutoLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDAutoLog_Example.framework; path = "Pods-DDAutoLog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF210AE5CBC33D9B65298F472A42C802 /* Pods-DDAutoLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDAutoLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03308919D0B443D4A40D544D6B8720A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1023D4F2A722B679FF28A8EC9805F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
+				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
+				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
+				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712BE22A37A08B14610751A992D0FF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8040D3DD879D0502DFCEA117B7FBA96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993721FCC1F862DBAD2751BCACA6E7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10C20D5698AAF825A24335DA7FFBBD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DB7D4417DAF70100A20A9710EFE1EE /* DDAutoLog */ = {
+			isa = PBXGroup;
+			children = (
+				75FEEA5970AF87A6891435053C871E75 /* DDAutoLog.h */,
+				7D288B901CE7803902A877D9B6E0E782 /* DDAutoLogManager.h */,
+				AA57CE71F738C18AF4B0F38D244754FE /* DDAutoLogManager.m */,
+				E4C29C7EF96B7F0EC67FD9DFD8C102DC /* DDAutoLogOperation.h */,
+				8BC7C492090387F30084031CF4EAB3A7 /* DDAutoLogOperation.m */,
+				E3CC330DB038B9775A1F21FD14ACA91C /* NSObject+DDAutoLog.h */,
+				7B14C95BA51389AD882B99143B947F00 /* NSObject+DDAutoLog.m */,
+				906A4B6D6B076FA41C075DFC1ACC1C48 /* UIButton+DDAutoLog.h */,
+				EBF9DA22434BA991A93086FF99FC7959 /* UIButton+DDAutoLog.m */,
+				4EBDF95D83159EAFC14D7BB670D91AFE /* UICollectionView+DDAutoLog.h */,
+				A34849EBFBB408E2895384EFDDA1DC94 /* UICollectionView+DDAutoLog.m */,
+				2CF4AC33DFB0ADF9021BD7B17282FB61 /* UITableView+DDAutoLog.h */,
+				B8FADD253CC38E0FEBCF2D43A3DCC3EC /* UITableView+DDAutoLog.m */,
+				CCDEE7B516E3D25A15530DD41BB34ADB /* UIView+DDAutoLog.h */,
+				CB715C2854AB2423B2D48CAF0CDAF645 /* UIView+DDAutoLog.m */,
+				80390DB576BB6501B12A15D1F3B768FA /* Support Files */,
+			);
+			name = DDAutoLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		04747800E56C625CB2E404EC9F1D3093 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3890C4D302CE9AF5E77ABE72C8B6EE6B /* Pods-DDAutoLog_Example */,
+				4E12441B19ABA42BBC36190FAE7A020A /* Pods-DDAutoLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D22B0D091B0427E43C82354D9CA8E06 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */,
+				DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */,
+				52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */,
+				CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */,
+				73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */,
+				6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				F35791481CAFDD8E7715AE1B44687328 /* Core */,
+				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
+				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		3890C4D302CE9AF5E77ABE72C8B6EE6B /* Pods-DDAutoLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2965FFB5644B297126704B4DC46788A5 /* Info.plist */,
+				4642A3A0D913229157E600307695CE02 /* Pods-DDAutoLog_Example.modulemap */,
+				FF210AE5CBC33D9B65298F472A42C802 /* Pods-DDAutoLog_Example-acknowledgements.markdown */,
+				B856735D96C12D9BE5925A034C87FDB7 /* Pods-DDAutoLog_Example-acknowledgements.plist */,
+				693B5E510E0AE3541146ACAC186AA684 /* Pods-DDAutoLog_Example-dummy.m */,
+				144E5641A82ACA81C88F876D8CE09184 /* Pods-DDAutoLog_Example-frameworks.sh */,
+				DADE131E8939E5B2079112D030D2E464 /* Pods-DDAutoLog_Example-resources.sh */,
+				67EF43FBEB561A7099ABBAE2B72A31A5 /* Pods-DDAutoLog_Example-umbrella.h */,
+				1946C1769C79723EADFAE7CEE85333B4 /* Pods-DDAutoLog_Example.debug.xcconfig */,
+				6578FB3A05E45B62B40FDBBE1E5C24BE /* Pods-DDAutoLog_Example.release.xcconfig */,
+			);
+			name = "Pods-DDAutoLog_Example";
+			path = "Target Support Files/Pods-DDAutoLog_Example";
+			sourceTree = "<group>";
+		};
+		4E12441B19ABA42BBC36190FAE7A020A /* Pods-DDAutoLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F075EC71B74CB0B9D0AA8D911732CB9A /* Info.plist */,
+				54B33BF752299256FD9BE25CF19A9152 /* Pods-DDAutoLog_Tests.modulemap */,
+				922E2B56B7A040E01C003D1096255482 /* Pods-DDAutoLog_Tests-acknowledgements.markdown */,
+				BA24AAFC98B2041A9840808668793779 /* Pods-DDAutoLog_Tests-acknowledgements.plist */,
+				424F4ECB96FFF060EDD77E18D7B1F358 /* Pods-DDAutoLog_Tests-dummy.m */,
+				3144C6856E1E47AD9711C083BA5EAB63 /* Pods-DDAutoLog_Tests-frameworks.sh */,
+				9347482627C55C088F6D9F3D61486C5F /* Pods-DDAutoLog_Tests-resources.sh */,
+				8615FC24A91CDB127889672A3D0EA471 /* Pods-DDAutoLog_Tests-umbrella.h */,
+				A5D7EA3FAECCFA25E60546F79B4B03D3 /* Pods-DDAutoLog_Tests.debug.xcconfig */,
+				66F3A6C4E2A3D9A93E63BBB79CEF3BBC /* Pods-DDAutoLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-DDAutoLog_Tests";
+			path = "Target Support Files/Pods-DDAutoLog_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				81FC9C9D26D06B55C1DFA7E4EF43E1F7 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				CDB3821B24F0AB0AE8B662832E6B8D06 /* Products */,
+				04747800E56C625CB2E404EC9F1D3093 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80390DB576BB6501B12A15D1F3B768FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E0853122BCAB2AF50D83DECEF2E05AF /* DDAutoLog.modulemap */,
+				204784675A2819E6F39C5E3F468DBB4B /* DDAutoLog.xcconfig */,
+				EBAD044426E029C51E105018235E123F /* DDAutoLog-dummy.m */,
+				ABF943B7ABDDFFC9625277804A0F97EC /* DDAutoLog-prefix.pch */,
+				3961EED3C02C8061E90460174E8B8548 /* DDAutoLog-umbrella.h */,
+				A678C338CBF3416CACBCDCEF5287C3EC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DDAutoLog";
+			sourceTree = "<group>";
+		};
+		81FC9C9D26D06B55C1DFA7E4EF43E1F7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02DB7D4417DAF70100A20A9710EFE1EE /* DDAutoLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */,
+				A27810809BAD71E4022600B21251449F /* QuartzCore.framework */,
+				AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */,
+				3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		CDB3821B24F0AB0AE8B662832E6B8D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0B7E7C55474B742825AF32FB1B1C0E /* DDAutoLog.framework */,
+				1BF8238622142CB9F79BDB741ECAFFE1 /* FBSnapshotTestCase.framework */,
+				F0A0065BE31B48D90E7D8B9E72F61F27 /* Pods_DDAutoLog_Example.framework */,
+				250C37036C92E40BA581C662E5934193 /* Pods_DDAutoLog_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
+				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
+				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
+				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
+				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
+				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
+				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
+				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
+				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
+				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
+				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
+				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
+				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
+				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68F79186755AEEF303F87AF4BEDE3D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EF3D66F51F8D15B4F962A9FBABF592 /* DDAutoLog-umbrella.h in Headers */,
+				67413749A992542C84C7CDE59A710ACA /* DDAutoLog.h in Headers */,
+				D1ECA5E95AE85F7AD15D5BEF8A76839E /* DDAutoLogManager.h in Headers */,
+				7E280340EAE8F0737A8C0C75820DC8A7 /* DDAutoLogOperation.h in Headers */,
+				B0B651A9C7BEB8C57D153C9AD945472B /* NSObject+DDAutoLog.h in Headers */,
+				684FCE00D74C5CF32E8979EE2EBC2625 /* UIButton+DDAutoLog.h in Headers */,
+				7E7E716A63E733B257FD62758E9495F2 /* UICollectionView+DDAutoLog.h in Headers */,
+				079AA2C2E14CFCA351A30A61D1A774BE /* UITableView+DDAutoLog.h in Headers */,
+				46F07F826CA9F999BE9F76AE1B88FFBD /* UIView+DDAutoLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FADB2610C39ED1F8137D06E72A3348 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843F796593370117B2B3FDB57DE4009A /* Pods-DDAutoLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
+				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
+				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D681CB10AE3CE95A73B2EE51B23EF5D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA973281FEAEB1E047BC38A9C89A936 /* Pods-DDAutoLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
+				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
+				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 1BF8238622142CB9F79BDB741ECAFFE1 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B91B3B07676D16C13DFD2437C9F68F26 /* Pods-DDAutoLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E2EE79FF2E2710BB4299F0F8DD4290 /* Build configuration list for PBXNativeTarget "Pods-DDAutoLog_Tests" */;
+			buildPhases = (
+				CDEA133DBB757B3009829F2801873C46 /* Sources */,
+				03308919D0B443D4A40D544D6B8720A7 /* Frameworks */,
+				94FADB2610C39ED1F8137D06E72A3348 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB347D85FECC33A541C3BD46DADF924 /* PBXTargetDependency */,
+			);
+			name = "Pods-DDAutoLog_Tests";
+			productName = "Pods-DDAutoLog_Tests";
+			productReference = 250C37036C92E40BA581C662E5934193 /* Pods_DDAutoLog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0926D606C7473278DE488F4F2C5BA77 /* Pods-DDAutoLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29E2DA0E32FEA3122FF26276568F095 /* Build configuration list for PBXNativeTarget "Pods-DDAutoLog_Example" */;
+			buildPhases = (
+				794AB2EE960548A3CBAE517BD1352281 /* Sources */,
+				993721FCC1F862DBAD2751BCACA6E7A4 /* Frameworks */,
+				D681CB10AE3CE95A73B2EE51B23EF5D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99BAA43BC8CD8EA6E8FBABBEF179269E /* PBXTargetDependency */,
+			);
+			name = "Pods-DDAutoLog_Example";
+			productName = "Pods-DDAutoLog_Example";
+			productReference = F0A0065BE31B48D90E7D8B9E72F61F27 /* Pods_DDAutoLog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB44524ECFEDCAE730D3E02FCCA445C3 /* DDAutoLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B8D42DC93ECC8C8E167AE771061C96 /* Build configuration list for PBXNativeTarget "DDAutoLog" */;
+			buildPhases = (
+				7275E623AF92CBED2C58B7099A6B937E /* Sources */,
+				712BE22A37A08B14610751A992D0FF08 /* Frameworks */,
+				68F79186755AEEF303F87AF4BEDE3D5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDAutoLog;
+			productName = DDAutoLog;
+			productReference = 8A0B7E7C55474B742825AF32FB1B1C0E /* DDAutoLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CDB3821B24F0AB0AE8B662832E6B8D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB44524ECFEDCAE730D3E02FCCA445C3 /* DDAutoLog */,
+				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				E0926D606C7473278DE488F4F2C5BA77 /* Pods-DDAutoLog_Example */,
+				B91B3B07676D16C13DFD2437C9F68F26 /* Pods-DDAutoLog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7275E623AF92CBED2C58B7099A6B937E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C5B0E3E354821E08CAD24902C86025 /* DDAutoLog-dummy.m in Sources */,
+				F9D9512929A9EE7671EEC3CF1AD58010 /* DDAutoLogManager.m in Sources */,
+				2C2E352AC261CFB6F721872B8C7327FE /* DDAutoLogOperation.m in Sources */,
+				4C621BE0CF2D79FA3CCF5FB7C2BB589F /* NSObject+DDAutoLog.m in Sources */,
+				557DD238BAE4FBE5FC3721095DF1845E /* UIButton+DDAutoLog.m in Sources */,
+				DE0BAD97006851F625F7481BE82C10A6 /* UICollectionView+DDAutoLog.m in Sources */,
+				C359AF0C03AB81E0C242E9B024E71593 /* UITableView+DDAutoLog.m in Sources */,
+				0D25506B1F98A56EC1DEC3E630CB7216 /* UIView+DDAutoLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794AB2EE960548A3CBAE517BD1352281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946113F3FEA702B909051AD7BF9B16CD /* Pods-DDAutoLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA133DBB757B3009829F2801873C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD9AB708072AE6DA030556BC66C121A /* Pods-DDAutoLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FB347D85FECC33A541C3BD46DADF924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = A37D6B3E53E9050C020F62746FDBD596 /* PBXContainerItemProxy */;
+		};
+		99BAA43BC8CD8EA6E8FBABBEF179269E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDAutoLog;
+			target = EB44524ECFEDCAE730D3E02FCCA445C3 /* DDAutoLog */;
+			targetProxy = 336F5EAABC109B14517CDD73412A42ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BDC1ECECAA158BF16264D7D38FE6E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204784675A2819E6F39C5E3F468DBB4B /* DDAutoLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDAutoLog/DDAutoLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDAutoLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DDAutoLog/DDAutoLog.modulemap";
+				PRODUCT_NAME = DDAutoLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F4BBFCDEB3530190CCC050922C48A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1946C1769C79723EADFAE7CEE85333B4 /* Pods-DDAutoLog_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DDAutoLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDAutoLog_Example/Pods-DDAutoLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDAutoLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5712A1696E8391580C250AB868BE7D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204784675A2819E6F39C5E3F468DBB4B /* DDAutoLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDAutoLog/DDAutoLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDAutoLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DDAutoLog/DDAutoLog.modulemap";
+				PRODUCT_NAME = DDAutoLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		945878A937ADAC2D428DC5EC2341B35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F3A6C4E2A3D9A93E63BBB79CEF3BBC /* Pods-DDAutoLog_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DDAutoLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDAutoLog_Tests/Pods-DDAutoLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDAutoLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0EF4034A64A34C015E0481F28C843DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D7EA3FAECCFA25E60546F79B4B03D3 /* Pods-DDAutoLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DDAutoLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDAutoLog_Tests/Pods-DDAutoLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDAutoLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F213839545D5E0E41ACD997D198E56D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6578FB3A05E45B62B40FDBBE1E5C24BE /* Pods-DDAutoLog_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DDAutoLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDAutoLog_Example/Pods-DDAutoLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDAutoLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B8D42DC93ECC8C8E167AE771061C96 /* Build configuration list for PBXNativeTarget "DDAutoLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5712A1696E8391580C250AB868BE7D88 /* Debug */,
+				0BDC1ECECAA158BF16264D7D38FE6E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29E2DA0E32FEA3122FF26276568F095 /* Build configuration list for PBXNativeTarget "Pods-DDAutoLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4BBFCDEB3530190CCC050922C48A70 /* Debug */,
+				F213839545D5E0E41ACD997D198E56D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E2EE79FF2E2710BB4299F0F8DD4290 /* Build configuration list for PBXNativeTarget "Pods-DDAutoLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EF4034A64A34C015E0481F28C843DF /* Debug */,
+				945878A937ADAC2D428DC5EC2341B35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA992D818C17C13A97E42D0734BF7D3 /* Debug */,
+				B2E52370F534DFE0FF7634F754F4F618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

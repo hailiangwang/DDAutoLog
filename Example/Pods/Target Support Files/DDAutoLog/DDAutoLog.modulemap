@@ -1,0 +1,6 @@
+framework module DDAutoLog {
+  umbrella header "DDAutoLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

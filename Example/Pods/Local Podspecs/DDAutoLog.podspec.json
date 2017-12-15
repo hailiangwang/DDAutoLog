@@ -1,0 +1,23 @@
+{
+  "name": "DDAutoLog",
+  "version": "0.1.0",
+  "summary": "@这里需要填写简介",
+  "description": "这里需要填写详细描述",
+  "homepage": "https://github.com/wanghailiang/DDAutoLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanghailiang": "wanghailiang@luojilab.com"
+  },
+  "source": {
+    "git": "https://gitlab.luojilab.com/iget-iOS/DDAutoLog.git",
+    "tag": "v0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "public_header_files": "DDAutoLog/Classes/*.h",
+  "source_files": "DDAutoLog/Classes/*.{h,m}"
+}
